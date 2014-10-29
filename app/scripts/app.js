@@ -7,8 +7,7 @@ angular
     'ngSanitize',
     'ngRoute',
     'angulartics',
-    'angulartics.google.analytics',
-    'angulartics.google.tagmanager'
+    'angulartics.google.analytics'
   ])
   .config(function ($routeProvider, $locationProvider, $analyticsProvider) {
     $locationProvider.html5Mode(true).hashPrefix('!');
